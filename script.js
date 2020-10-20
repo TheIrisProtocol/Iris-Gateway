@@ -1,7 +1,3 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
 // 0 = Online and Open 1 = Whitelisted 2 = In Development 3 = Offline
 var status = 0;
 function statButton(){

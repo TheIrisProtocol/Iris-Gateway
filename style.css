@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-style: bold;
+  color: lightblue;
+  text-align: center;
+  font-size: 100px;
+}
+a:link{
+  color:blue;
+  text-decoration:none;
+}
+
+a:visited{
+  color:blue;
+  text-decoration:none;
+}
+a:hover{
+  color:blue;
+  font-style: bold;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+
+#nav {
+  display: block;
+  padding: 8px;
+  background-color: white;
+  font-style:none;
+}
+#center {
+text-align:center;
+}
+#desc {
+  font-style: bold;
+  text-align: center;
+}
+#heading {
+  font-style: bold;
+  font-size: 60px;
+  color: blue;
+}
+#button{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:blue;
+}

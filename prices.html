@@ -12,7 +12,11 @@
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-
+<style>
+th, td{
+width:20%;
+}
+</style>
         <script>
 window.addEventListener('load', function () {
   console.log('Webpage Loaded');
@@ -42,32 +46,29 @@ window.addEventListener('load', function () {
     </h6>
     
     <br />
-    <h2 id="heading">
-      Advertisement Items
-    </h2>
-    <h6 style="font-style:italic;">
-      These will be bought when I am on the server. Please notify BaconIris if you want to buy an item here and pay him
-    </h6>
-   <h2 id="heading">
-     Upgraded Gateway Spot
-    </h2>
-    <h3>
-      This will grant you a more decorated gateway spot in the terminal
-    </h3>
-    <h4>
-      Price:
-      15,000
-    </h4>
-    <h2 id="heading">
-      Player Hosted Event
-    </h2>
-    <h3>
-      This allows you to create an event on the server. Please notify BaconIris if you are planning on buying this to setup event
-    </h3>
-    <h4>
-      Price:
-      50,000 + Event Prize
-    </h4>
+    <table border="2" style="color:white;" width="85%">
+<caption>Advertising Items</caption>
+<tr>
+<th>Item Name</th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Upgraded Spot</td>
+<td>Get a better server slot</td>
+<td>$1,000,000</td>
+</tr>
+<tr>
+<td>Spawn Server Slot</td>
+<td>Get one of the 2 server slots at spawn</td>
+<td>$5,000,000</td>
+</tr>
+<tr>
+<td>Server Event</td>
+<td>Host an event on the server</td>
+<td>$750,000 + Event Prize</td>
+</tr>
+</table>
     
     
   </body>
